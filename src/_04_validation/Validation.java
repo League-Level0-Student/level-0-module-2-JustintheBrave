@@ -11,47 +11,29 @@ public class Validation {
 	public static void main(String[] args) {
 		
 		Random randomMaker = new Random();
-		
-		int randomNumber = randomMaker.nextInt(5);
-		
-		System.out.println(randomNumber);
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
-		if(randomNumber==1) {
+		
+		for(int i=0; i<11; i++) {
+			JOptionPane.showInputDialog("tell me ur name");
+			
+			int randomNumber = randomMaker.nextInt(5);
+		
+			if(randomNumber==1) {
 			JOptionPane.showMessageDialog(null, "ur cool");
 		}
 		else if(randomNumber==2) {
-			JOptionPane.showMessageDialog(null, "ur mum cool");
+			JOptionPane.showMessageDialog(null, "ur are cool");
 		}
 		else if(randomNumber==3) {
-			JOptionPane.showMessageDialog(null, "ur dad cool");
+			JOptionPane.showMessageDialog(null, "ur arent cool");
 		}
 		else if(randomNumber==4) {
-			JOptionPane.showMessageDialog(null, "ur skinnier than kris");
+			JOptionPane.showMessageDialog(null, "ur special");
 		}
 		else if(randomNumber==5) {
 			JOptionPane.showMessageDialog(null, "ur good at coding");
-		}		Random randomMaker = new Random();
-		
-		int randomNumber = randomMaker.nextInt(5);
-		
-		System.out.println(randomNumber);
-
-		// 1. Use each value of randomNumber to give the user a random compliment.
-		if(randomNumber==1) {
-			JOptionPane.showMessageDialog(null, "ur cool");
-		}
-		else if(randomNumber==2) {
-			JOptionPane.showMessageDialog(null, "ur mum cool");
-		}
-		else if(randomNumber==3) {
-			JOptionPane.showMessageDialog(null, "ur dad cool");
-		}
-		else if(randomNumber==4) {
-			JOptionPane.showMessageDialog(null, "ur skinnier than kris");
-		}
-		else if(randomNumber==5) {
-			JOptionPane.showMessageDialog(null, "ur good at coding");
+		}	
 		}
 		// 2. Repeat all the code above 10 times
 		
